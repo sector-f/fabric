@@ -8,7 +8,7 @@ Usage of fabric:
   -l float
         Length of fabric in yards
   -t float
-        Weight of fabric in sq. oz. per yard
+        Weight of fabric in oz. per square yard
   -w float
         Width of fabric in inches
 > fabric -l 3 -w 60 -t 12

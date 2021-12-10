@@ -9,7 +9,7 @@ import (
 func main() {
 	width := flag.Float64("w", 0, "Width of fabric in inches")
 	length := flag.Float64("l", 0, "Length of fabric in yards")
-	weight := flag.Float64("t", 0, "Weight of fabric in sq. oz. per yard")
+	weight := flag.Float64("t", 0, "Weight of fabric in oz. per square yard")
 	flag.Parse()
 
 	if *width == 0 || *length == 0 || *weight == 0 {
